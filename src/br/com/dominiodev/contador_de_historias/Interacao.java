@@ -25,4 +25,24 @@ public class Interacao {
         this.opcoesParaEscolha = opcoesParaEscolha;
         return this;
     }
+
+    public String getTituloAtivador() {
+        return tituloAtivador;
+    }
+
+    public String getTextoNarrativo() {
+        return textoNarrativo;
+    }
+
+    public List<Interacao> getOpcoesParaEscolha() {
+        return opcoesParaEscolha;
+    }
+
+    public void adicionarInteracao(Interacao interacao) {
+        this.opcoesParaEscolha.add(interacao);
+    }
+
+    public void excluirInteracao(int index) {
+        this.opcoesParaEscolha.remove(index);
+    }
 }
