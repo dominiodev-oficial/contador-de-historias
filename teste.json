@@ -1,0 +1,13 @@
+{
+  "tituloAtivador" : "Start",
+  "textoNarrativo" : "Actor visit the city",
+  "opcoesParaEscolha" : [ {
+    "tituloAtivador" : "Continue",
+    "textoNarrativo" : "Actor visit the restaurant with your friends",
+    "opcoesParaEscolha" : [ {
+      "tituloAtivador" : "Continue",
+      "textoNarrativo" : "Actor listen notici by peoples hidden in the city",
+      "opcoesParaEscolha" : [ ]
+    } ]
+  } ]
+}
